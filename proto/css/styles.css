@@ -1,0 +1,167 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+.title {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:aqua;
+    border: rgb(64, 179, 224) 5px solid;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.title::after {
+    content: '0';
+    background-color: black;
+    position: absolute;
+    right: -110%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title::before {
+    content: '0';
+    background-color: black;
+    position: absolute;
+    left: -110%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navBar {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #008e17;
+}
+
+.leftSide {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.homeButton {
+    margin-top: 10px;
+    background-color: #80bb81;
+    background: -webkit-linear-gradient(rgb(235, 252, 0), rgb(15, 182, 0));
+    padding-top: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.homeButton a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #444;
+    border-bottom: solid #444 transparent;
+}
+
+.homeButton a:hover {
+    color: black;
+    border-bottom: solid black;
+    transition-duration: 0.1s;
+}
+.virtualButton {
+    margin-top: 10px;
+    background: -webkit-linear-gradient(rgb(235, 252, 0), rgb(15, 182, 0));
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    height: 40px;
+    width: 160px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.virtualButton a{
+   text-decoration: none;
+   font-size: 1.5em;
+   color: #444;
+   border-bottom: solid #444 transparent;
+   
+}
+
+.virtualButton a:hover {
+    color: black;
+    border-bottom: solid black;
+    transition-duration: 0.1s;
+}
+
+.itsk img {
+    height: 70px;
+    width: 70px;
+}
+
+.frame{
+    width: 99%;
+    height: 900px;
+    
+    border: black solid 10px;
+    border-radius: 10px;
+}
+
+#codingA {
+    border-radius: 30px;
+    border: black 3px solid;
+    background-color: white;
+}
+
+#codingA p{
+    text-align: center;
+}
+
+#sensusA {
+    border-radius: 30px;
+    border: black 3px solid;
+    background-color: white;
+}
+
+#sensusA p{
+    text-align: center;
+}
+
+#fillingA {
+    border-radius: 30px;
+    border: black 3px solid;
+    background-color: white;
+}
+
+#fillingA p{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    background-color: yellowgreen;
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+    min-height: 20px;
+    border-radius: 15px;
+    border: rgb(4, 185, 4) solid 5px;
+}
